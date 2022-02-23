@@ -1,0 +1,882 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>England's fair garland fully furnished with variety of new songs. Containing much mirth and delight. This may be printed, R.P.</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1687</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 15 KB of XML-encoded text transcribed from 9 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A38390</idno>
+            <idno type="STC">Wing E2962B</idno>
+            <idno type="STC">ESTC R217329</idno>
+            <idno type="EEBO-CITATION">99829006</idno>
+            <idno type="PROQUEST">99829006</idno>
+            <idno type="VID">33441</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A38390)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 33441)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1985:20)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>England's fair garland fully furnished with variety of new songs. Containing much mirth and delight. This may be printed, R.P.</title>
+               </titleStmt>
+               <extent>16 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for R. Kell, at the Blew Anchor in Pye-Corner, near West-Smithfield,</publisher>
+                  <pubPlace>[London] :</pubPlace>
+                  <date>1687.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Place of publication from Wing.</note>
+                  <note>Title page woodcut.</note>
+                  <note>In verse.</note>
+                  <note>Reproduction of the original in the Magdalene College Library, Cambridge.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Great Britain --  Poetry --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-06</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-07</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-08</date>
+            <label>Pip Willcox</label>Sampled and proofread</change>
+         <change>
+            <date>2010-08</date>
+            <label>Pip Willcox</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:33441:1"/>
+            <pb facs="tcp:33441:1" rendition="simple:additions"/>
+            <p>
+               <hi>ENGLAND'S</hi> FAIR GARLAND, Fully Furniſhed with Variety of New Songs.</p>
+            <p>
+               <hi>Containing much Mirth and Delight.</hi>
+            </p>
+            <figure>
+               <figDesc>Musicians play on a balcony overlooking people at table. A richly dressed group of people look on from the doorway.</figDesc>
+            </figure>
+            <figure/>
+            <p>
+               <floatingText xml:lang="eng">
+                  <body>
+                     <div type="license_to_print">
+                        <p>
+                           <hi>This may be Printed,</hi>
+                        </p>
+                        <closer>
+                           <signed>R. P.</signed>
+                        </closer>
+                     </div>
+                  </body>
+               </floatingText>
+            </p>
+            <p>Printed for <hi>R. Kell,</hi> at the <hi>Blew Anchor</hi> in
+<hi>Pye-Corner,</hi> near <hi>Weſt-Smithfield:</hi> 1687.</p>
+         </div>
+      </front>
+      <body>
+         <div type="ballads">
+            <pb facs="tcp:33441:2" rendition="simple:additions"/>
+            <pb facs="tcp:33441:2" rendition="simple:additions"/>
+            <head>
+               <hi>
+                  <gap reason="illegible" resp="#OXF" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>NGLANDS</hi> Fair Garland.</head>
+            <div type="ballad">
+               <head>
+                  <hi>Millers</hi> Misfortune at
+<hi>Bartholomew-Fair.</hi>
+               </head>
+               <opener>
+                  <hi>Tune of,</hi> Maids a Waſhing.</opener>
+               <lg>
+                  <l>
+                     <hi>WIll</hi> the <hi>Miller,</hi> both brisk and rare,</l>
+                  <l>Rode up to <hi>London</hi> upon his Mare,</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>en he had lined his Breeches with Riches,</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>ll for ſeeing of <hi>Bartlemew</hi> Fair:</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> ſooner was come to the Town,</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> walking then the Fair up and down;</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>sk Laſs he hapn'd to meet,</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>hom he did proffer to give a Treat.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>at firſt ſhe was nice and coy,</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>old him he was ſome Miſters boy:</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap>, no, I am not, my Honey, here's Mony,</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>th I will ſpend freely on thee my j<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>y:</l>
+                  <pb n="4" facs="tcp:33441:3" rendition="simple:additions"/>
+                  <l>Pig <gap reason="illegible" resp="#OXF" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> Pork I will give to my Dear,</l>
+                  <l>Beſides a Flaggon of Ale and Beer,</l>
+                  <l>And ſomething elſe which I now have in ſtore.</l>
+                  <l>Then prithee now what canſt thou wiſh for more</l>
+               </lg>
+               <lg>
+                  <l>Then at length ſhe did give conſent,</l>
+                  <l>Vnto a Muſick-Booth then they went,</l>
+                  <l>where they were merry, with laughing &amp; quaf<gap reason="illegible" resp="#OXF" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>
+                  </l>
+                  <l>Till Seventeen Shillings the Miller ſpent:</l>
+                  <l>For they brought 'um in Bottles of Wine,</l>
+                  <l>With other delicate Dainties fine:</l>
+                  <l>His Miſs was jolly, and freely did call,</l>
+                  <l>Thought ſhe Mr. <hi>Novice</hi> ſhall pay for all.</l>
+               </lg>
+               <lg>
+                  <l>They continued there a ſpace,</l>
+                  <l>Whereas this I wel he did embrace,</l>
+                  <l>and prais'd her Beauty, replying and trying</l>
+                  <l>I would we had now a more private place;</l>
+                  <l>Then they ſhow'd him a more private room,</l>
+                  <l>Where he received a diſmal doom,</l>
+                  <l>Which preſently after unto him befel,</l>
+                  <l>It is a moſt ſorrowful tale to tell.</l>
+               </lg>
+               <lg>
+                  <l>All day long ſhe with him did ſtay,</l>
+                  <l>At night ſhe cunningly got away,</l>
+                  <l>She having finger'd his treaſure for pleaſure,</l>
+                  <l>He had a large reckoning there to pay:</l>
+                  <pb n="5" facs="tcp:33441:3" rendition="simple:additions"/>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>alas all his money was gone,</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> he grieved and thus took on,</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> of all comfort clearly bereft,</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>ve not penny of money left.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>all never behold her more,</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> e're poor fellow ſo ſerv'd before?</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> will prove a Millers undoing and ruine,</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>'s thirty two ſhillings upon the ſcore:</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> the Drawer, and this you ſhall pay,</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>re we let you go hence away,</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> did he ſigh and make pittiful moan,</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ith I had tarry'd with my Wife <hi>Joan:</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> to pay it was all his care,</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> ſh'd he had not come to the Fair,</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>t ſtill the Drawer cry'd, pay me my money,</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ength he was forced to ſell his Mare:</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> to
+<hi>London</hi> the Miller did ride,</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> Miſs it ſeems has ſub<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>u'd his pride,</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> leaving
+<hi>ondon</hi> he now was put to't,</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap>! for to travel it home on foot.</l>
+               </lg>
+            </div>
+            <div type="ballad">
+               <pb n="6" facs="tcp:33441:4" rendition="simple:additions"/>
+               <head>The fierce Duel between the Miller
+<gap reason="illegible" resp="#OXF" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> his Wife <hi>Joan,</hi> for the loſs of his Mare and Money.</head>
+               <opener>Tune of, <hi>Ladies of London.</hi>
+               </opener>
+               <lg>
+                  <l>LIſten awhile, and I now will declare,</l>
+                  <l>what hapn'd to him in concluſion,</l>
+                  <l>When he return'd to ſweet <hi>Joan</hi> from the fair,</l>
+                  <l>there was a moſt horrid confuſion:</l>
+                  <l>For when his Wife indeed he did ſee,</l>
+                  <l>the Miller he burſt out a crying,</l>
+                  <l>Where is your Mare and your Money, ſaid ſhe</l>
+                  <l>come tell me without any lying.</l>
+               </lg>
+               <lg>
+                  <l>O ſaid the Miller, my Mare ſhe fell lame</l>
+                  <l>before I arrived at <hi>London,</hi>
+                  </l>
+                  <l>Therefore you'l find I am not to blame,</l>
+                  <l>although I am ruin d and undone:</l>
+                  <l>Liſten a while and I will declare,</l>
+                  <l>the ſorrow which highly does grieve me,</l>
+                  <l>A Farriers Med'cine did mu<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ther my Mare,</l>
+                  <l>ſweet Wife I would have you believe me.</l>
+               </lg>
+               <pb n="7" facs="tcp:33441:4" rendition="simple:additions"/>
+               <lg>
+                  <l>This is a fine formal Lye, ſhe replyed,</l>
+                  <l>which you have now newly invented,</l>
+                  <l>There was a three-Legg'd Stool by her ſide,</l>
+                  <l>and ſtraight at his Noddle ſhe ſent it:</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>o that ſhe broke the Millers poor Head,</l>
+                  <l>the blood in abundance did trickle,</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>nd without Supper ſhe ſent him to bed,</l>
+                  <l>in this moſt ſad ſorrowful pickle.</l>
+               </lg>
+               <lg>
+                  <l>Now the next morning when he did ariſe,</l>
+                  <l>his <hi>Joan</hi> ſhe did rattle like thunder,</l>
+                  <l>Which did poor <hi>William</hi> the Miller ſurprize,</l>
+                  <l>to think of the grief he lay under:</l>
+                  <l>There was no way that he could get free,</l>
+                  <l>his Wife ſhe did ſtrive to out-brave him,</l>
+                  <l>Where is your your Money you Raſcal? ſays ſhe</l>
+                  <l>and then a ſtout bang <hi>Jone</hi> ſhe gave him.</l>
+               </lg>
+               <lg>
+                  <l>Then the poor Miller began for to rore,</l>
+                  <l>when finding his <hi>Joanny</hi> ſo cruel,</l>
+                  <l>But ſhe belaboured his Careaſs the more,</l>
+                  <l>he ne'r before felt ſuch a Duel:</l>
+                  <l>For by this means he had the more hurt,</l>
+                  <l>while ſhe did both hector and vapour;</l>
+                  <l>He was ſtark naked it ſeems to his Shirt,</l>
+                  <l>therefore he could no ways eſcape her.</l>
+               </lg>
+               <pb n="8" facs="tcp:33441:5" rendition="simple:additions"/>
+               <lg>
+                  <l>He very fain would have pud on his cloaths,</l>
+                  <l>but that ſhe did luſtily maul him,</l>
+                  <l>As he cry'd out ſhe redoubled her blows,</l>
+                  <l>and pittiful Raſcal did call him:</l>
+                  <l>Thus did he feel the rage of his Wife,</l>
+                  <l>who now was his abſolute Maſter,</l>
+                  <l>He never was ſo thraſht in his Life,</l>
+                  <l>this was a moſt woeful diſaſter.</l>
+               </lg>
+               <lg>
+                  <l>Then ſhe began for to reap up each Crime,</l>
+                  <l>likewiſe with a Vengance ſhe thunder'd;</l>
+                  <l>Sirrah, you know this is not the firſt time</l>
+                  <l>that you have done ſo by a hundred:</l>
+                  <l>
+                     <hi>Bridget</hi> and <hi>Kate,</hi> with <hi>Margery</hi> ſtill,</l>
+                  <l>nay <hi>Prudence</hi> and pritty fac'd <hi>Nancy,</hi>
+                  </l>
+                  <l>When e're they hapn'd to come to the Mill,</l>
+                  <l>you'd be at the ſport which you fancy.</l>
+               </lg>
+               <lg>
+                  <l>Like as at <hi>London</hi> you thought to do ſo,</l>
+                  <l>but there you were worthily fitted,</l>
+                  <l>This is the way that your money did go,</l>
+                  <l>therefore you are not to be pitty'd:</l>
+                  <l>Every blow ſhe made it cry twang,</l>
+                  <l>the Miller by raving and rearing,</l>
+                  <l>Then did ſhe give him another ſtout bang,</l>
+                  <l>I pray now take this for a fairing.</l>
+               </lg>
+               <pb n="9" facs="tcp:33441:5" rendition="simple:additions"/>
+               <lg>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>er was Man in ſo ſtrange a ſurprize,</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap>
+                     <hi>Joan</hi> ſhe was abſolute cruel,</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>s in abundance did flow from his Eyes,</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ad yet ſhe maintainted the Duel:</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> at the length he ſaid, my ſweet <hi>Joan,</hi>
+                  </l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> troth I cannot diſcommend thee,</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> if thou wilt now but pitty my moan,</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> never no more will offend thee.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> will buy me a Holy-day Gown,</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>d vow'd to be good for the future;</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> here the Cudgel I now will lay down,</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>th that he did ſtraight way ſalute her:</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> dear Wife, to thee I will give</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>own, with all other Apparel,</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> will be loving as long as I live,</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> there was an end of the Quarrel.</l>
+               </lg>
+            </div>
+            <div type="ballad">
+               <pb n="10" facs="tcp:33441:6" rendition="simple:additions"/>
+               <head>The Damoſels moan for the loſs of her Mai<gap reason="illegible" resp="#OXF" extent="3 letters">
+                     <desc>•••</desc>
+                  </gap> Head.</head>
+               <opener>Tune is, <hi>Caper and jerk it.</hi>
+               </opener>
+               <lg>
+                  <l>NOw ſweet <hi>John</hi> my Fathers Man,</l>
+                  <l>with me I hope you'l Wed;</l>
+                  <l>Becauſe that I, moſt willingly</l>
+                  <l>gave you my Maiden-Head:</l>
+                  <l>You ſaid that I ſhould be your Bride,</l>
+                  <l>becauſe I was ſo kind;</l>
+                  <l>
+                     <hi>If once I ſaid ſo, yet now it is no,</hi>
+                  </l>
+                  <l>
+                     <hi>and am of another mind.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>Why ſure you will not ſerve me ſo,</l>
+                  <l>and leave me in diſtreſs;</l>
+                  <l>If that my Mother this ſhould know,</l>
+                  <l>ſhe would be pittyleſs:</l>
+                  <l>You ſaid that I ſhould be your Wife,</l>
+                  <l>which made me prove ſo kind;</l>
+                  <l>
+                     <hi>What tho' I did then, I tell you agen,</hi>
+                  </l>
+                  <l>
+                     <hi>I'm now,</hi> &amp;c.</l>
+               </lg>
+               <pb n="11" facs="tcp:33441:6" rendition="simple:additions"/>
+               <lg>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>u often had me to the Fair,</l>
+                  <l>and gave me Cakes and Ale,</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> coſt or charges you would ſpare,</l>
+                  <l>in order to prevail;</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>nd ſaid you loved none like me,</l>
+                  <l>that I ſhould always find;</l>
+                  <l>
+                     <hi>
+                        <gap reason="illegible" resp="#OXF" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>hat tho' I did then, I tell you agen,</hi>
+                  </l>
+                  <l>
+                     <hi>I'm now of another mind.</hi>
+                  </l>
+               </lg>
+               <lg>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ow often in my Fathers Barn,</l>
+                  <l>I pray did we Embrace?</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>hen as you ſay you did diſcern,</l>
+                  <l>ſweet Features in my Face,</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>nd ſaid you'd never marry none</l>
+                  <l>but I, who had been kind;</l>
+                  <l>
+                     <hi>
+                        <gap reason="illegible" resp="#OXF" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>hat tho' I did then, I tell you agen,</hi>
+                  </l>
+                  <l>
+                     <hi>I'm now,</hi> &amp;c.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>hen firſt you into love did fall,</l>
+                  <l>you ſhow'd me Silver ſtore,</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>nd ſaid I ſhould be Dame of all,</l>
+                  <l>had you full ten times more:</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>nd ſaid we ſhould e're it were long,</l>
+                  <l>in marriage ſtate be joyn'd;</l>
+                  <l>
+                     <hi>
+                        <gap reason="illegible" resp="#OXF" extent="1 letter">
+                           <desc>•</desc>
+                        </gap>hat e're I ſaid then, I tell you agen,</hi>
+                  </l>
+                  <l>
+                     <hi>I'm now,</hi> &amp;c.</l>
+               </lg>
+               <pb n="12" facs="tcp:33441:7" rendition="simple:additions"/>
+               <lg>
+                  <l>My <hi>Johnny</hi> why d'ye ſlight me ſo?</l>
+                  <l>alas! what ſhall I do?</l>
+                  <l>O do not prove my overthrow,</l>
+                  <l>who has been kind to you:</l>
+                  <l>Remember now your Solemn Vow,</l>
+                  <l>which caus'd me to be kind;</l>
+                  <l>
+                     <hi>I now muſt away, no longer i'le ſtay,</hi>
+                  </l>
+                  <l>
+                     <hi>for now,</hi> &amp;c.</l>
+               </lg>
+               <lg>
+                  <l>Tho' ſhe in ſorrow made her moan,</l>
+                  <l>the very truth to tell,</l>
+                  <l>He left her ſighing all alone,</l>
+                  <l>and took his laſt farewel:</l>
+                  <l>You Damſels then, truſt not Young-men.</l>
+                  <l>for if you prove too kind,</l>
+                  <l>
+                     <hi>For tho' they have ſaid, they'l marry the maid,</hi>
+                  </l>
+                  <l>
+                     <hi>they'l quickly change their mind.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div type="ballad">
+               <head>The Thread-bare Squire; Or, The pretended Knight Conquer'd by the Farmer, when he fought for his true Love <hi>Suſan.</hi>
+               </head>
+               <opener>Tune is, <hi>Cannons Roar.</hi>
+               </opener>
+               <lg>
+                  <l>
+                     <hi>SUſan</hi> a Yeomans Daughter fair,</l>
+                  <l>Who was her Fathers only Heir,</l>
+                  <l>No Maiden co<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ld with her compare,</l>
+                  <l>in all the Town for Beauty;</l>
+                  <pb n="13" facs="tcp:33441:7" rendition="simple:additions"/>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> Farmers Son endu'd with Land,</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>e gave to her both heart and hand,</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> vow'd he'd be at her command,</l>
+                  <l>and counted it his Duty.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>e felt the ſmart of <hi>Cupids</hi> Dart,</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>o that he lov'd with all his heart,</l>
+                  <l>And vow'd from her he'd never part,</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> till Death alone ſhou'd ſever;</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>t length the Damſel ſeem'd to yield,</l>
+                  <l>And unto him her mind reveal'd,</l>
+                  <l>And in a Kiſs the Bargain ſeal'd,</l>
+                  <l>to live in Love for ever.</l>
+               </lg>
+               <lg>
+                  <l>A Thread-bare Squire lived near,</l>
+                  <l>Who lov'd this Youthful Damſel dear,</l>
+                  <l>And when he did theſe Tydings hear,</l>
+                  <l>the ſame he could not ſever;</l>
+                  <l>Said he, this Raſcal i'le out-brave,</l>
+                  <l>For this ſweet Girl he ſhall not have,</l>
+                  <l>She is too ſweet for ſuch a Slave,</l>
+                  <l>a Farmer ſhall not have her.</l>
+               </lg>
+               <lg>
+                  <l>Vpon a day with much delight,</l>
+                  <l>He coming to this Beauty bright,</l>
+                  <l>And ſaid he was a worthy Knight,</l>
+                  <l>ſuppoſing this wou'd Charm her;</l>
+                  <l>And <hi>Robin</hi> being there, behold,</l>
+                  <pb n="14" facs="tcp:33441:8" rendition="simple:additions"/>
+                  <l>And ſaid that you are too too bold,</l>
+                  <l>You are not worthy Sir, to hold</l>
+                  <l>a Candle to a Farmer.</l>
+               </lg>
+               <lg>
+                  <l>What is the reaſon, then ſaid he,</l>
+                  <l>That I muſt be abus'd by thee,</l>
+                  <l>Am I not one of High Degree,</l>
+                  <l>whom many does admire?</l>
+                  <l>I keep my Geldings, Hawks and Hounds,</l>
+                  <l>And have both Guinnys, Crowns and Pounds,</l>
+                  <l>But <hi>Robin</hi> knits his Brows, and frowns,</l>
+                  <l>and ſaid thou art a Lyar.</l>
+               </lg>
+               <lg>
+                  <l>The Squire then was in a Rage,</l>
+                  <l>That nothing could his Wrath aſſwage,</l>
+                  <l>Till he with <hi>Robin</hi> did ingage,</l>
+                  <l>to draw he was proceeding;</l>
+                  <l>But <hi>Robin</hi> he was not afraid,</l>
+                  <l>But took in hand his Flayl, and play'd</l>
+                  <l>And ſoon he broke his Pate, and ſaid,</l>
+                  <l>Sir, how d'ye like my Breeding?</l>
+               </lg>
+               <lg>
+                  <l>He laid it on, and would not lin,</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>s if he had a Threſhing been,</l>
+                  <l>True blows upon the Squires skin,</l>
+                  <l>was never laid ſeverer;</l>
+                  <l>The Squire ſaid, dear friend, I pray,</l>
+                  <l>Be not ſo Cruel now this day,</l>
+                  <pb n="15" facs="tcp:33441:8" rendition="simple:additions"/>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> me but leave to Ride away,</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>e'r will more come near her.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> art not worthy of a Wife,</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> wou'd occaſion ſo much ſtrife,</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> thou here wilt beg thy Life,</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap>
+                     <gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ill not be too Cruel;</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> on my knees my life I crave,</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap>
+                     <hi>Robin</hi> thou the ſame ſhalt have,</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> then his hand to him he gave,</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap>s ended all the Duel.</l>
+               </lg>
+            </div>
+            <div type="ballad">
+               <head>Merry Wedding between <hi>Robin</hi> the Far<g ref="char:EOLhyphen"/>mer, and his Sweet <hi>Suſan.</hi>
+               </head>
+               <opener>Tune is, <hi>Two Engliſh Travellers.</hi>
+               </opener>
+               <lg>
+                  <l>Ow, now when the Duel was over and paſt,</l>
+                  <l>The Farmer enjoyed his true Love at laſt;</l>
+                  <l>they for a Wedding did likewiſe provide,</l>
+                  <l>wiſe ſhe appear'd a moſt beautiful Bride.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ir Fathers and Mothers were pleaſed to ſee,</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>t ſhe ſhould be Marry'd to no one but he;</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> that he did bravely the Squire defeat,</l>
+                  <l>
+                     <gap reason="illegible" resp="#OXF" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> therefore his joys they would fully compleat.</l>
+               </lg>
+               <pb n="16" facs="tcp:33441:9"/>
+               <lg>
+                  <l>The day was appointed, at length when it came</l>
+                  <l>All Friends was invi<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ed, as Perſons of Fame</l>
+                  <l>And likewiſe the Young-Men their Sweet-hea<gap reason="illegible" resp="#OXF" extent="3 letters">
+                        <desc>•••</desc>
+                     </gap>
+                     <gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>id
+<gap reason="illegible" resp="#OXF" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap>
+                  </l>
+                  <l>With Muſick &amp; Dancing, while Bells they did ei<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </l>
+               </lg>
+               <lg>
+                  <l>That Day was provided a Noble great Feaſt,</l>
+                  <l>For all their Attendance, and none of the leaſt;</l>
+                  <l>A Pig, Gooſe, and Capon, and other rich Cheer<g ref="char:punc">▪</g>
+                  </l>
+                  <l>It were no great matter if we had ſome here.</l>
+               </lg>
+               <lg>
+                  <l>The Barrels and Bottles did plentily flow,</l>
+                  <l>So that there was few to their Lodging cou'd go<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </l>
+                  <l>Each Night perfect ſober, there being ſuch ſtore,</l>
+                  <l>This Wedding did laſt for a Fortnight and mor<gap reason="illegible" resp="#OXF" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                     <g ref="char:punc">▪</g>
+                  </l>
+               </lg>
+               <lg>
+                  <l>Now after this time was expir'd and paſt,</l>
+                  <l>Their friends were for taking their leaves at the
+<gap reason="illegible" resp="#OXF" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap>
+                  </l>
+                  <l>And leaving the happy young couple, they give</l>
+                  <l>Their wiſhes that they long full happy may Live.</l>
+               </lg>
+               <pb facs="tcp:33441:9"/>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
